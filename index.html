@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE  html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CHALLENGE ALURA - ENCRIPTADOR - DIEGO BERDEJO</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href=style.css>
+    </head>
+    <body>
+        <div id="cajadelogo">
+            <img class="logo" src="Logo.png">
+        </div>
+        <div id="ingresodetexto">
+                <input id="entradadetexto" type="text" placeholder="INGRESE EL TEXTO AQUI">
+        </div>
+        <div id="contenedorderecho">
+            <img id="persona" class="muñeco" src="Muñeco.png">
+            <textarea readonly="readonly" name="name" id="cajadetexto" cols="15" rows="10">Texto</textarea>
+            <p id="text001" class="descripcion1">NINGUN MENSAJE FUE ENCONTRADO</p>
+            <P id="text002" class="descripcion2">Ingrese el texto que desea encriptar o desencriptar</P> 
+        </div>
+        <div id="cajaderequisitos">
+            <img class="vector" src="Vector.png">
+            <p class="textorequisitos">*Solo letras minusculas, sin acentos ni caracteres especiales*</p>
+        </div>
+        <div id="botones">
+            <button id="btnencriptar" type="button" onclick="encriptar()" class="boton">Encriptar</button>
+            <button id="btndesencriptar" type="button" onclick="desencriptar()" class="boton">Desencriptar</button>
+            <button id="btncopiar" type="button" onclick="copiar()" class="boton">Copiar</button>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
